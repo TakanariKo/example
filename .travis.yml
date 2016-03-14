@@ -1,6 +1,15 @@
-sudo: false
+sudo: true
 language: node_js
+before_install:
+- sudo chmod a+x ./env.sh
+- sudo chmod a+rw ./.npmrc ./package.json
+- ./env.sh
 node_js:
 - '4'
 - '0.12'
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: opensource@zlab.co.jp
+  api_key: $API_KEY
 
