@@ -12,4 +12,5 @@ deploy:
   provider: npm
   email: opensource@zlab.co.jp
   api_key: $API_KEY
-
+  on:
+    branch: ci_test
