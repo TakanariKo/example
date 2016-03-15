@@ -17,8 +17,5 @@
   },
   "devDependencies": {
     "mocha": "~2.4.5"
-  },
-  "publishConfig": {
-    "registry": "$PUBLISH_REGISTRY"
   }
 }
