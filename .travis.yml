@@ -11,6 +11,6 @@ deploy:
   skip_cleanup: true
   provider: npm
   email: opensource@zlab.co.jp
-  api_key: $API_KEY
+  api_key: invalid
   on:
     branch: ci_test
